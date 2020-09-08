@@ -1,0 +1,9 @@
+C:\Users\Wallace-K2 Telecom\OneDrive\Projeto Sistema CGR\Parte 4\SistemaCGR\TacacsSharp\bin\Debug\netstandard2.0\TacacsSharp.deps.json
+C:\Users\Wallace-K2 Telecom\OneDrive\Projeto Sistema CGR\Parte 4\SistemaCGR\TacacsSharp\bin\Debug\netstandard2.0\TacacsSharp.dll
+C:\Users\Wallace-K2 Telecom\OneDrive\Projeto Sistema CGR\Parte 4\SistemaCGR\TacacsSharp\bin\Debug\netstandard2.0\TacacsSharp.pdb
+C:\Users\Wallace-K2 Telecom\OneDrive\Projeto Sistema CGR\Parte 4\SistemaCGR\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.csprojAssemblyReference.cache
+C:\Users\Wallace-K2 Telecom\OneDrive\Projeto Sistema CGR\Parte 4\SistemaCGR\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.csproj.CoreCompileInputs.cache
+C:\Users\Wallace-K2 Telecom\OneDrive\Projeto Sistema CGR\Parte 4\SistemaCGR\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.AssemblyInfoInputs.cache
+C:\Users\Wallace-K2 Telecom\OneDrive\Projeto Sistema CGR\Parte 4\SistemaCGR\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.AssemblyInfo.cs
+C:\Users\Wallace-K2 Telecom\OneDrive\Projeto Sistema CGR\Parte 4\SistemaCGR\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.dll
+C:\Users\Wallace-K2 Telecom\OneDrive\Projeto Sistema CGR\Parte 4\SistemaCGR\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.pdb
