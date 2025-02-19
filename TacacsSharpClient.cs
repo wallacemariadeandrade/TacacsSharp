@@ -64,7 +64,7 @@ namespace TacacsSharp
 
             var header = new PacketHeader(
                 PacketType.TAC_PLUS_AUTHEN, 1, 
-                isEncryptionActive ? EncryptionFlag.TAC_PLUS_UNENCRYPTED_FLAG : EncryptionFlag.TAC_PLUS_ENCRYPTED_FLAG, 
+                isEncryptionActive ? EncryptionFlag.TAC_PLUS_ENCRYPTED_FLAG : EncryptionFlag.TAC_PLUS_UNENCRYPTED_FLAG, 
                 authStartBytes.Length
             );
 
@@ -101,7 +101,7 @@ namespace TacacsSharp
 
             var header = new PacketHeader(
                 PacketType.TAC_PLUS_AUTHEN, 1, 
-                isEncryptionActive ? EncryptionFlag.TAC_PLUS_UNENCRYPTED_FLAG : EncryptionFlag.TAC_PLUS_ENCRYPTED_FLAG, 
+                isEncryptionActive ? EncryptionFlag.TAC_PLUS_ENCRYPTED_FLAG : EncryptionFlag.TAC_PLUS_UNENCRYPTED_FLAG, 
                 authStartBytes.Length
             );
 
