@@ -44,6 +44,8 @@ namespace TacacsSharp
         TAC_PLUS_AUTHEN_TYPE_ASCII = 0x01,
         TAC_PLUS_AUTHEN_TYPE_PAP = 0x02,
         TAC_PLUS_AUTHEN_TYPE_CHAP = 0x03,
+        TAC_PLUS_AUTHEN_TYPE_MSCHAP = 0x05,
+        TAC_PLUS_AUTHEN_TYPE_MSCHAPV2 = 0x06,
     }
 
     public enum AuthenticationService
@@ -75,5 +77,26 @@ namespace TacacsSharp
         TAC_PLUS_AUTHEN_METH_RCMD = 0x20
     }
 
-    
+    public enum AuthorizationStatus
+    {
+        TAC_PLUS_AUTHOR_STATUS_PASS_ADD = 0x01,
+        TAC_PLUS_AUTHOR_STATUS_PASS_REPL = 0x02,
+        TAC_PLUS_AUTHOR_STATUS_FAIL = 0x10,
+        TAC_PLUS_AUTHOR_STATUS_ERROR = 0x11,
+        TAC_PLUS_AUTHOR_STATUS_FOLLOW = 0x21
+    }
+
+    public enum AccountingFlag
+    {
+        TAC_PLUS_ACCT_FLAG_START = 0x02,
+        TAC_PLUS_ACCT_FLAG_STOP = 0x04,
+        TAC_PLUS_ACCT_FLAG_WATCHDOG = 0x08,
+    }
+
+    public enum AccountingStatus
+    {
+        TAC_PLUS_ACCT_STATUS_SUCCESS = 0x01,
+        TAC_PLUS_ACCT_STATUS_ERROR = 0x02,
+        TAC_PLUS_ACCT_STATUS_FOLLOW = 0x21,
+    }
 }
