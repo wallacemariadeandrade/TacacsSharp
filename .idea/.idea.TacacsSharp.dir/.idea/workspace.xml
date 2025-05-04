@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1593e626-6004-4dd5-bb5e-73b86e6b9084" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Authorization/AuthorizationRequestPacketBody.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Authorization/AuthorizationRequestPacketBody.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authorization/AuthorizationResponsePacketBody.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Authorization/AuthorizationResponsePacketBody.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Constants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TacacsSharpClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TacacsSharpClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/TacacsSharp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/TacacsSharp.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/TacacsSharp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/TacacsSharp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/TacacsSharp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/TacacsSharp.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/TacacsSharp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/TacacsSharp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/TacacsSharp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/TacacsSharp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/TacacsSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/TacacsSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/TacacsSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/TacacsSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/TacacsSharp.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/TacacsSharp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/TacacsSharp.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/TacacsSharp.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/TacacsSharp.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2tF6Z0VjPO53GuvJrNfXH8p1dLH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1593e626-6004-4dd5-bb5e-73b86e6b9084" name="Changes" comment="" />
+      <created>1739935528743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739935528743</updated>
+      <workItem from="1739935532419" duration="74000" />
+      <workItem from="1745409537374" duration="1482000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

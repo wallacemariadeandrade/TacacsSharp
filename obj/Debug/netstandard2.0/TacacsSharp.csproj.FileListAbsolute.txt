@@ -7,3 +7,14 @@ C:\Users\Wallace-K2 Telecom\OneDrive\Projeto Sistema CGR\Parte 4\SistemaCGR\Taca
 C:\Users\Wallace-K2 Telecom\OneDrive\Projeto Sistema CGR\Parte 4\SistemaCGR\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.AssemblyInfo.cs
 C:\Users\Wallace-K2 Telecom\OneDrive\Projeto Sistema CGR\Parte 4\SistemaCGR\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.dll
 C:\Users\Wallace-K2 Telecom\OneDrive\Projeto Sistema CGR\Parte 4\SistemaCGR\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.pdb
+D:\Github\TacacsSharp\bin\Debug\netstandard2.0\TacacsSharp.deps.json
+D:\Github\TacacsSharp\bin\Debug\netstandard2.0\TacacsSharp.dll
+D:\Github\TacacsSharp\bin\Debug\netstandard2.0\TacacsSharp.pdb
+D:\Github\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.csproj.AssemblyReference.cache
+D:\Github\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.AssemblyInfoInputs.cache
+D:\Github\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.AssemblyInfo.cs
+D:\Github\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.csproj.CoreCompileInputs.cache
+D:\Github\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.sourcelink.json
+D:\Github\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.dll
+D:\Github\TacacsSharp\obj\Debug\netstandard2.0\TacacsSharp.pdb

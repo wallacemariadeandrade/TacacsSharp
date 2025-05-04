@@ -1,11 +1,12 @@
-using System.IO;
+﻿using System.IO;
 using System.Net;
 using System.Text;
 
-namespace TacacsSharp.Authorization
+namespace TacacsSharp.Accounting
 {
-    public class AuthorizationRequestPacketBody
+    public class AccountingRequestPacketBody
     {
+        public AccountingFlag Flags { get; }
         public AuthenticationMethod AuthenMethod { get; }
         public PrivilegeLevel PrivLvl { get; }
         public AuthenticationType AuthenType { get; }
@@ -19,17 +20,19 @@ namespace TacacsSharp.Authorization
         public IPAddress RemAddr { get; }
         public string[] Args { get; }
 
-        public AuthorizationRequestPacketBody(
-            AuthenticationMethod authenMethod, 
-            PrivilegeLevel privLvl, 
-            AuthenticationType authenType, 
-            AuthenticationService service, 
+        public AccountingRequestPacketBody(
+            AccountingFlag flags,
+            AuthenticationMethod authenMethod,
+            PrivilegeLevel privLvl,
+            AuthenticationType authenType,
+            AuthenticationService service,
             string[] args,
             string user = null,
             string port = null,
             IPAddress remAddr = null
             )
         {
+            Flags = flags;
             AuthenMethod = authenMethod;
             PrivLvl = privLvl;
             AuthenType = authenType;
@@ -44,8 +47,9 @@ namespace TacacsSharp.Authorization
         {
             using (var buffer = new MemoryStream())
             {
-                using(var bw = new BinaryWriter(buffer))
+                using (var bw = new BinaryWriter(buffer))
                 {
+                    bw.Write((byte)Flags);
                     bw.Write((byte)AuthenMethod);
                     bw.Write((byte)PrivLvl);
                     bw.Write((byte)AuthenType);
@@ -67,13 +71,13 @@ namespace TacacsSharp.Authorization
         public override string ToString()
         {
             var builder = new StringBuilder(
-                $"authen_method={AuthenMethod}, priv_lvl={PrivLvl}, authen_type={AuthenType}, authen_service={Service}, user_len={UserLen}, port_len={PortLen}, rem_addr_len={RemAddrLen}, arg_cnt={ArgCnt},"
+                $"flags={Flags}, authen_method={AuthenMethod}, priv_lvl={PrivLvl}, authen_type={AuthenType}, authen_service={Service}, user_len={UserLen}, port_len={PortLen}, rem_addr_len={RemAddrLen}, arg_cnt={ArgCnt},"
             );
-            if(Args != null) for (int i=1; i<=Args.Length; i++) builder.Append($" arg_{i}_len={Args[i-1].Length},");
+            if(Args != null) for (int i = 1; i <= Args.Length; i++) builder.Append($" arg_{i}_len={Args[i - 1].Length},");
             if(UserLen > 0) builder.Append($" user={User},");
             if(PortLen > 0) builder.Append($" port={Port},");
             if(RemAddrLen > 0) builder.Append($" rm_addr={RemAddr},");
-            if(Args != null) for (int i=1; i<=Args.Length; i++) builder.Append($" arg_{i}={Args[i-1]},");
+            if(Args != null) for (int i = 1; i <= Args.Length; i++) builder.Append($" arg_{i}={Args[i - 1]},");
             return builder.Remove(builder.Length - 1, 1).ToString(); // removes last ',' appended above and returns
         }
     }
